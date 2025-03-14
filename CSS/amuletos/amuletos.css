@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    text-align: justify;
+    overflow-x: hidden;
+    background: url("/ASSETS/img/fundo_jogabilidade.jpg")
+}
+
+.nav{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #23232e;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav-list li{
+    margin-left: 32px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: black;    
+}
+/*-----------------------------------------------------------------------*/
+.conteúdo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #23232e;
+    border-radius: 10px;
+    color: #fff;
+    margin: 2vh;
+    width: 198vh;
+    height: 25vh;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-size: 3.5vh;
+    margin: 2vh;
+}
+
+.titulo1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    margin-right: 45px;
+    margin-left: 20px;
+}
+
+.paragrafo1 {
+    margin: 1vh;
+    font-size: 2.3vh;
+    line-height: 3.5vh;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.deixarDeLado{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10vh;
+    margin-bottom: 5vh;
+    height: 40vh;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.conteúdo2 {
+    background-color: #23232e;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1vh;
+    height: 100%;
+}
+
+.texto-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 20px;
+    width: 198vh;
+    height: 35vh;
+}
+
+.paragrafo2 {
+    margin: 2vh;
+    font-size: 2.3vh;
+    line-height: 3.5vh;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+.conteúdo3 {
+    background-color: #23232e;
+    border-radius: 10px;
+    color: #fff;
+    padding: 3vh;
+    height: 100%;
+}
+
+.texto-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 20px;
+    width: 198vh;
+    height: 35vh;
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-size: 3.5vh;
+}
+
+.paragrafo3 {
+    margin: 2vh;
+    font-size: 2.3vh;
+    line-height: 3.5vh;
+    text-align: justify;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.texto-container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteúdo4 {
+    background-color: #23232e;
+    border-radius: 10px;
+    color: #fff;
+    width: 50%;
+    padding: 5vh;
+    height: 100%;
+}
+
+.paragrafo4 {
+    margin: 2vh;
+    font-size: 2.3vh;
+    line-height: 3.5vh;
+    text-align: justify;
+}
+
+.titulo4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 3.5vh;
+}
+
+.imagem4{
+    margin: 2%;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/* o recurso webkit nada mais é do que um conjunto de recursos nativos de qualquer página criada (como a scrollbar por exemplo)*/
+body::-webkit-scrollbar {
+    width: 1.5vh; /* Largura bem fina da barra */
+}
+
+/*o recurso track é responsável por definir a cor da barra */
+body::-webkit-scrollbar-track {
+    background: rgba(35, 35, 46, 0.7);
+}
+
+/*o recurso thumb é para quando a barra é arrastada/selecionada*/
+body::-webkit-scrollbar-thumb {
+    background: #9f83a5;
+    border-radius: 10px;
+}
+
+/*Quando selecionada/o cursor passa em cima, sua cor muda*/
+body::-webkit-scrollbar-thumb:hover {
+    background: #67536b;
+}
+
+/*----------------------------------------------------------------------------------*/
+.rodape {
+    position: relative; 
+    width: 100%;
+    height: 10vh;
+    background-color: #23232e;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10vh;
+}
+
+.email, .instagram{
+    display: inline;
+    flex-direction: column;
+    font-size: 2.5vh;
+    margin: 28vh;
+    justify-content: space-between;
+
+}
+
+.music{
+    display: flex;
+    margin: 10px;
+    border-style: none;
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#botao{
+    display: flex;
+    margin: 1px;
+    text-align: justify;
+    padding: 0;
+}
+
+#icone{
+    width: 30px;
+    height: 30px;
+}
