@@ -19,6 +19,13 @@ https://github.com/user-attachments/assets/15afce33-3aa4-4dae-befa-584b78d46e0f
    <li> Em minha tela de menu principal, permiti ao usuário navegar entre minhas 3 opções de abas com conteúdos paralelos ao jogo (todas páginas HTML conectadas entre si).</li>
  </ul>
 
+ ## Como utilizar esse site?
+
+ para conseguir usar esse site, abra o <b>Git Bash</b> no local onde você desejar clonar meu repositório e insira:
+ #### `git clone https://github.com/Baumzin/Web-Page.git`
+ Depois, aperte ENTER para executar o `git clone`!
+
+
  --------------------------------------------------------------------------------------------------------------------------------------------------
 
  # Website created with the intention of reviewing JS, HTML and CSS components
@@ -41,6 +48,12 @@ there were some mandatory requirements for the site, such as having a login scre
   <li> To create the login screen I made the default user "admin" with the password "admin" just for demonstration purposes. </li>
   <li> On my main menu screen, I allowed the user to navigate between my 3 tab options with content parallel to the game (all HTML pages connected to each other). </li>
 </ul>
+
+## How to use this site?
+
+To be able to use this site, open <b>Git Bash</b> in the location where you want to clone my repository and enter:
+#### `git clone https://github.com/Baumzin/Web-Page.git`
+Then, press ENTER to run `git clone`!
 
   
 
